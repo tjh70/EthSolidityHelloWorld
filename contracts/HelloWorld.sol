@@ -1,11 +1,11 @@
-// SPDX-License-Identifier: UNLICENSED
+// SPDX-License-Identifier: UNLISCENSED
 
 pragma solidity ^0.8.9;
 
 contract HelloWorld {
-    string private helloMessage = "Hello World";
+    string private hello = "Hello World!";
 
-    function getHelloMessage() public view returns (string memory) {
-        return helloMessage;
+    function getHello() public view returns (string memory) {
+        return hello;
     }
 }

@@ -1,1 +1,1 @@
-# FirstEthProject
+# Solidity hello world :)
